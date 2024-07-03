@@ -63,7 +63,6 @@ body {
     align-items: center;
     gap: 30px;
     a {
-        background-color: #1d1d1d;
         padding: 20px;
         border-radius: 25px;
         border: solid 5px var(--second-color);
@@ -72,6 +71,7 @@ body {
         font-family: var(--primary-font);
         font-weight: 500;
         color: #AA8C2C;
+        box-shadow: 1px 1px 20px gold;
     }
 }
 
