@@ -1,0 +1,87 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --primary-color: #000000;
+  --second-color: #F0BC39;
+}
+
+header {
+  background-color: var(--primary-color);
+  text-align: center;
+  border-bottom: solid 5px var(--second-color);
+}
+header img {
+  height: 50px;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+.imagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  gap: 20px;
+}
+.imagens .imagem_foto {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: solid 10px;
+  border-color: var(--second-color);
+  background-image: url(../medias/day.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.imagens .imagem_logo {
+  width: 300px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.botoes a {
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 25px;
+  border: solid 5px var(--second-color);
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #AA8C2C;
+}
+
+.mapa {
+  text-align: center;
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  border: solid 5px var(--second-color);
+}
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.localizacao_texto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: var(--second-color);
+  font-size: 1.75rem;
+}
+.localizacao_texto h1 {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
