@@ -108,13 +108,13 @@ body {
 .container_unhas {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) 2fr;
     justify-items: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
-    row-gap: 3%;
-    padding: 3% 0 3% 0;
+    height: 100%;
+    gap: 3%;
+    padding: 6% 0 6% 0;
     .fotos_unhas {
         width: 85%;
         border: solid 1px;
